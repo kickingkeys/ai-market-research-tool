@@ -1,0 +1,30 @@
+{
+  "name": "ai-market-research-tool",
+  "version": "1.0.0",
+  "description": "AI-powered market research tool for business students",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "npx tsx main.ts"
+  },
+  "keywords": ["ai", "market-research", "business", "gemini"],
+  "author": "Business Education",
+  "license": "MIT",
+  "dependencies": {
+    "ai": "^3.0.0",
+    "@ai-sdk/google": "^1.0.0",
+    "zod": "^3.22.0",
+    "puppeteer": "^22.0.0",
+    "chart.js": "^4.4.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "@types/chart.js": "^2.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
