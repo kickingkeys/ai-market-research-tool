@@ -2,6 +2,8 @@
 
 **Generate professional market research reports in 3 minutes using AI.**
 
+**📄 See example**: [Sample elderly care market report](elderly-care-market-research-2025-09-09T23-19-17.pdf) (generated in 3 minutes)
+
 ## 🚀 Quick Setup
 
 ### 1. Download
@@ -64,8 +66,6 @@ const RESEARCH_TOPIC = {
 - Competitor analysis
 - Business recommendations
 - PDF ready for presentations
-
-**📄 See example**: [Sample elderly care market report](elderly-care-market-research-2025-09-09T23-19-17.pdf) (generated in 3 minutes)
 
 ## 🆘 Need Help?
 

@@ -18,6 +18,8 @@ dist/
 
 # Generated reports
 *.pdf
+# Exception: Keep sample report for students
+!elderly-care-market-research-2025-09-09T23-19-17.pdf
 
 # Operating System files
 .DS_Store
