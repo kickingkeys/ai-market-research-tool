@@ -65,16 +65,7 @@ const RESEARCH_TOPIC = {
 - Business recommendations
 - PDF ready for presentations
 
-## 💡 Research Ideas
-
-- Electric vehicles
-- Food delivery apps
-- Remote work software
-- Sustainable fashion
-- Healthcare AI
-- Cryptocurrency
-- Social media marketing
-- E-commerce trends
+**📄 See example**: [Sample elderly care market report](elderly-care-market-research-2025-09-09T23-19-17.pdf) (generated in 3 minutes)
 
 ## 🆘 Need Help?
 
