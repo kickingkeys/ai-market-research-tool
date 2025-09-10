@@ -1,6 +1,6 @@
 # 🤖 AI Market Research Tool
 
-**Generate professional market research reports using AI - from 3 minutes to comprehensive analysis!**
+**Generate professional market research reports using AI.**
 
 **📄 See example**: [Sample elderly care market report](elderly-care-market-research-2025-09-09T23-19-17.pdf) (generated in 3 minutes)
 
