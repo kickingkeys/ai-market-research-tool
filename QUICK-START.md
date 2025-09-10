@@ -31,13 +31,27 @@ npm start
 
 **Done!** You'll get a PDF report in 2-3 minutes.
 
-## ⚠️ IMPORTANT: Change Research Topic
+## ⚠️ IMPORTANT: Customize Your Research
 
+### Change Research Topic
 **Default is "elderly care" - change it!**
 
 1. Open `main.js` 
 2. Find line 17
 3. Change `industry: "your topic here"`
+
+### Choose Report Depth (NEW!)
+**Pick how detailed you want:**
+
+1. Find line 37: `depth: "standard"`
+2. Change to: `"quick"`, `"standard"`, `"comprehensive"`, or `"executive"`
+
+**Options:**
+- `"quick"` - 2-3 minutes, basic overview
+- `"standard"` - 4-6 minutes, balanced detail  
+- `"comprehensive"` - 8-12 minutes, detailed analysis
+- `"executive"` - 15-25 minutes, full business report
+
 4. Run `npm start` again
 
 ## Need Help?

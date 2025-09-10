@@ -18,8 +18,10 @@
 ### "Can't find the project folder"
 → Use `cd Desktop/ai-market-research-tool` (or wherever you extracted it)
 
-### "PDF not generated"
-→ Check internet connection, wait 3-5 minutes
+### "PDF not generated" or "Taking too long"
+→ Check internet connection
+→ Try reducing depth to "quick" or "standard"  
+→ Executive reports take 15-25 minutes - be patient!
 
 ## Still Stuck?
 
@@ -28,4 +30,5 @@
 **Open an Issue**: [Report your problem here](../../issues)
 
 ## Remember!
-**Change the research topic** in `main.js` line 17 or you'll get elderly care research!
+1. **Change the research topic** in `main.js` line 17 (or you'll get elderly care research!)
+2. **Choose your depth level** in `main.js` line 37 (`quick`, `standard`, `comprehensive`, `executive`)

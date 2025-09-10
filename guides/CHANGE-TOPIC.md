@@ -1,6 +1,6 @@
-# 🎯 How to Change Research Topic
+# 🎯 How to Customize Your Research
 
-## Quick Method (30 seconds)
+## 1. Change Research Topic (30 seconds)
 
 1. **Open `main.js`** in any text editor
 2. **Find line 17** (the `RESEARCH_TOPIC` section)
@@ -19,7 +19,24 @@ const RESEARCH_TOPIC = {
 };
 ```
 
-4. **Save and run**: `npm start`
+## 2. Choose Report Depth (NEW! - 15 seconds)
+
+1. **Find line 37** (the `REPORT_CONFIG` section)
+2. **Change the depth**:
+
+```javascript
+const REPORT_CONFIG = {
+  depth: "comprehensive",  // ← CHANGE THIS
+}
+```
+
+**Depth Options:**
+- **`"quick"`** - 3 sections, 2 charts, 2-3 minutes ⚡
+- **`"standard"`** - 4 sections, 3 charts, 4-6 minutes 📊 (recommended)
+- **`"comprehensive"`** - 6 sections, 5 charts, 8-12 minutes 📈  
+- **`"executive"`** - 8 sections, 8 charts, 15-25 minutes 💼
+
+3. **Save and run**: `npm start`
 
 ## Example Topics
 

@@ -1,6 +1,6 @@
 # 🤖 AI Market Research Tool
 
-**Generate professional market research reports in 3 minutes using AI.**
+**Generate professional market research reports using AI - from 3 minutes to comprehensive analysis!**
 
 **📄 See example**: [Sample elderly care market report](elderly-care-market-research-2025-09-09T23-19-17.pdf) (generated in 3 minutes)
 
@@ -36,8 +36,9 @@ npm start
 
 **That's it!** You'll get a PDF report in 2-3 minutes.
 
-## ⚠️ IMPORTANT: Change Your Research Topic
+## ⚠️ IMPORTANT: Customize Your Research
 
+### 1. Change Your Research Topic
 **By default, this researches "elderly care" - you probably want something else!**
 
 1. Open `main.js` in any text editor
@@ -56,16 +57,39 @@ const RESEARCH_TOPIC = {
 };
 ```
 
-3. Run `npm start` again
+### 2. Choose Your Report Depth
+**NEW!** Pick how detailed you want your report:
+
+```javascript
+const REPORT_CONFIG = {
+  depth: "standard",  // ← CHANGE THIS
+}
+```
+
+**Options:**
+- **`"quick"`** - 3 sections, 2-3 minutes ⚡ (Basic overview)
+- **`"standard"`** - 4 sections, 4-6 minutes 📊 (Balanced - recommended)  
+- **`"comprehensive"`** - 6 sections, 8-12 minutes 📈 (Detailed analysis)
+- **`"executive"`** - 8 sections, 15-25 minutes 💼 (Full business analysis)
+
+3. Run `npm start` to generate your customized report!
 
 ## 📊 What You Get
 
-- Executive summary
-- Market size and growth
-- Professional charts
-- Competitor analysis
+**All reports include:**
+- Executive summary & conclusions
+- Market size and growth analysis  
+- Professional charts and visualizations
+- Competitive landscape analysis
 - Business recommendations
-- PDF ready for presentations
+
+**Depth levels add:**
+- **Quick:** 2 charts, 3 core sections
+- **Standard:** 3 charts, 4 detailed sections  
+- **Comprehensive:** 5 charts, 6 specialized sections
+- **Executive:** 8 charts, 8 comprehensive sections + financial analysis
+
+**Reports are fully formatted PDFs ready for presentations!**
 
 ## 🆘 Need Help?
 
@@ -79,4 +103,6 @@ const RESEARCH_TOPIC = {
 
 ---
 
-**Remember:** Change the research topic in `main.js` line 17 or you'll get elderly care research!
+**Remember:** 
+1. Change the research topic in `main.js` line 17 (or you'll get elderly care research!)
+2. Choose your depth level in `main.js` line 37 (`quick`, `standard`, `comprehensive`, `executive`)
